@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo_tim {
+  width: 150px;
+  padding-bottom: 15px;
+}
+
+@media(min-width: 576px) {
+  .logo_tim {
+    width: 200px;
+  }
+}
+
+p.card-text.textblackbg{
+  color: white !important;
+}
+
+.navbar {
+  box-sizing: border-box;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.producties{
+  margin-top: 50px !important;
+}
+
+.nav-item a,
+.dropdown-item a {
+  color: var(--white);
+}
+
+.nav-item a:hover,
+.dropdown-item a:hover {
+  color: var(--blue);
+}
+
+.activepart {
+  color: var(--blue) !important;
+}
+
+a.dropdown-item:hover{
+  color: black !important;
+}
+
+div.dropdown-menu.show{
+  background-color: black !important ;
+}
+
+.navbar {
+  background-color: var(--black);
+}
+
+.navbar-nav>li>.dropdown-menu {
+  background-color: var(--blue);
+}
+
+.dropdown-menu a:hover {
+  background-color: var(--white);
+}
+
+.language {
+  color: var(--white) !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+
+}
+
+header {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+main {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: sticky;
+  /*
+	background-image: url(../Codering/Fotos/E_Bonnarens_Tim_prince.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black; */
+}
+
+h4,
+h5, h6,
+.portfolio p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  font-weight: bold !important;
+  color: var(--white);
+  background-color: var(--info);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 3px;
+}
+
+h5.producties.col-12{
+  margin-top: 90px !important;
+  margin-bottom: -40px !important;
+}
+
+.portfoliobox{
+  background-color: var(--black) !important;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  margin-bottom: 50px !important;
+}
+
+.voettekst {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--white);
+  background-color: var(--info);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 3px;
+  margin-top: -22px;
+}
+
+.portfolio p {
+  margin-top: 15px;
+}
+
+.omschrijving {
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 3px;
+  margin-top: -15px;
+}
+
+.credits {
+  font-size: 12px;
+  font-style: italic;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 3px;
+  margin-top: -5px;
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid {
+  height: 150px;
+}
+
+.card-title {
+  margin-top: 15px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.btn {
+  color: var(--white) !important;
+  background-color: var(--blue) !important;
+}
+
+.btn:hover {
+  color: var(--black) !important;
+}
+
+img {
+  border-radius: 5px;
+}
+
+/* Bonny */
+
+.bonnybanner{
+  margin-top: -25px;
+}
+
+.no_underline:hover{
+  text-decoration: none !important;
+}
+
+/* Contact */
+
+.list-unstyled li {
+  margin-bottom: 3px;
+}
+
+.list-unstyled a {
+  color: var(--blue) !important;
+  text-decoration: none !important;
+}
+
+.list-unstyled a:hover {
+  color: var(--black) !important;
+}
+
+.list-unstyled a span {
+  margin-left: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.list-unstyled a span:hover {
+  text-decoration: underline;
+}
+
+a.fa.fa-instagram {
+  line-height: 1.2;
+}
+
+.CityAndCountry {
+  margin-top: -3px;
+}
+
+/* Video */
+
+.video-background-holder {
+  position: relative;
+  height: calc(100vh - 72px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 50px;
+}
+
+.freestyle_meerinfo {
+  margin-bottom: 10px;
+}
+
+.topmarge {
+  margin-top: 30px;
+}
+
+/* custom toggler */
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+button.navbar-toggler.custom-toggler {
+  border-color: white;
+}
+
+.contactlink {
+  margin-top: 5px;
+}
+
+/* Stijl cirkel */
+
+.mystyle {
+  border: 3px solid white;
+  box-shadow: -10px 8px 10px;
+}
+
+.showreeltitle{
+  margin-top: 30px !important;
+  margin-bottom: -8px !important;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.rounded-circle:hover {
+  animation: blink 1s;
+  animation-iteration-count: infinite;
+}
+
+.card {
+  background-color: transparent !important;
+  border: transparent !important;
+  margin-top: 25px !important;
+}
+
+/* marge tov navbar */
+
+.portfolio img {
+  margin-top: 40px;
+}
+
+.main {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* Footer */
+
+footer {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: var(--white);
+  background-color: var(--black);
+  padding-bottom: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+footer a {
+  color: black;
+}
+
+.footertext {
+  margin-bottom: 20px;
+}
