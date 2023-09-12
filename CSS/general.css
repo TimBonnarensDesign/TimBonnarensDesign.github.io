@@ -110,7 +110,7 @@ h5, h6,
 }
 
 h5.producties.col-12{
-  margin-top: 90px !important;
+  margin-top: 50px !important;
   margin-bottom: -40px !important;
 }
 
@@ -136,6 +136,42 @@ h5.producties.col-12{
 
 .portfolio p {
   margin-top: 15px;
+}
+
+.portfolio, .portfoliofreestyle {
+  margin-top: 40px;
+}
+
+h4.titlemystory{
+  font-size: 22px;
+  margin-top: 15px !important;
+}
+
+.portfoliodiv{
+  margin-bottom: 40px;
+}
+
+.portfoliofreestyle h4 {
+  margin-bottom: 15px;
+}
+
+.portfoliofreestyle{
+  margin-bottom: 15px;
+}
+
+.freestyletitle{
+  font-size: 18px;
+  margin-bottom: 15px !important;
+}
+
+.quote{
+  font-family: 'Alkatra', cursive;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.titlemystory{
+  margin-bottom: 15px;
 }
 
 .omschrijving {
